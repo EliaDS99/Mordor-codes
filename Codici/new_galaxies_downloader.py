@@ -36,7 +36,7 @@ cutout_params = {ptype: ','.join(fields) for ptype, fields in flags.items()}
 
 # Base API settings
 baseUrl = 'http://www.tng-project.org/api/'
-headers = {"api-key": "1701eec7f65350338e690222837ebc97"}  # Inserisci la tua vera API key
+headers = {"api-key": "Your-API-Key"}  # Inserisci la tua vera API key
 
 # Discover simulation and snapshot URLs
 r = requests.get(baseUrl, headers=headers).json()
